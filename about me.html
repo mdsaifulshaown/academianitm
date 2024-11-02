@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     
+<style>
+    
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:0%;
+        background-color: rgb(29, 81, 118);
+    }
+    .navbar{
+            background-color:black;
+            padding:40px;
+            text-align: center;
+            color: white;
+        }
+        .navbar a{
+             color: white;
+             text-decoration: none;
+             font-size:1.2rem;
+             padding:10px 20px;
+             cursor:pointer;
+           
+             border-inline: white;
+        }
+        .navbar-menu{
+            height:100px;
+            display:inline;
+            position:absolute;
+            height:600px;
+            width: ;
+            right:0px;
+            top:90px;
+        }
+        .navbar-content{
+            position: absolute;
+            top:79px;
+            right:0px;
+            width: 250px;
+            background-color:black;
+            text-align:center;
+            min-width:100px;
+            display:none;
+            
+        }
+       .navbar .nav-heading{
+           padding:10px;
+            text-align: left;
+         /*   position: absolute;*/
+            left:20px;
+       }
+        .navbar-content a{
+            display:block;
+            
+        }
+        .navbar-content a:hover{
+            background-color: gray;
+            
+        }
+        .navbar-menu:hover .navbar-content{
+            display:block;
+        } 
+        
+            
+        .social {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; /* Added margin for spacing */
+            background-color: rgb(29, 81, 118);
+        }
+
+        .social a {
+            margin: 0 10px; /* Spacing between social icons */
+            color: rgb(227, 231, 235); /* Ensure icons are visible */
+            text-decoration: none; /* Remove underline */
+            font-size: 40px;
+            padding-top: 30px;
+            padding-inline: 20px;
+            
+        }
+
+        @keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+    
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    color:white;
+    
+}
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+        
+        img{
+            
+            border-radius:50%;
+            display:block;
+            margin:0 auto;
+            height:250px;
+            width:250px;
+            border:5px solid white;
+        }
+        #image{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            top:50%;
+            left: 50%;
+            justify-content: center;
+            align:center;
+            height:100%;
+            padding-top: 50px; 
+            
+        }
+        
+        .about-me{
+            display:fl
+            height:100%;
+            background-color :#21618C;
+            text-align: center;
+            color:white;
+            padding: 50px;
+        }
+        .about-me .info{
+            line-height: 30px;
+            padding:5px;
+            padding-bottom: 40px;
+            animation: slideIn 5s ease-in;
+        }
+
+        
+</style>
+    
+</head>
+<body>
+      <div class="navbar">
+        <div class="nav-heading col-3">
+            <h1><b>ACADEMIA NITM</b></h1>
+        </div>
+        <div class="navbar-menu col-9">
+            <a href="#"><i class="fa-solid fa-bars fa-2xl"></i></a>
+        <div class="navbar-content">
+            <a href="index.html">Home</a>
+            <a href="about me.html">About us</a>
+            <a href="blog.html">Tech Notes</a>
+            <a href="contact me.html">Contact us</a>
+        </div>
+        </div>
+      </div>
+   <div class="about-me">
+    <div id="image">
+        <img src="c:\Users\HP\AppData\Local\Microsoft\Windows\INetCache\IE\UHKA9IIV\NITM[1].gif" alt="Logo of NITM">
+    </div><br>
+    <div class="info">
+        <h1 id="am">About us</h1><br>
+        <p><b>NATIONAL INSTITUTE OF MEGHALAYA</b></un></p>
+        <p>Temporary campus : 
+            Bijni Complex, Laitumkhrah
+Shillong-793003, Meghalaya, India<br>Permanent campus : 
+Saitsohpen, Sohra (Cherrapunji), East Khasi Hills District, Meghalaya, India
+
+        </p>
+        <p>The National Institute of Technology (NIT) Meghalaya is one among the thirty one NITs in India established under the NIT Act 2007 (Amended 2012) of the Parliament of India as Institutes of National Importance with full funding support from the Ministry of Education (Shiksha Mantralaya), Government of India.
+
+            The Vision:
+            
+            A Centre of Excellence vibrant with academic activities and bubbling with youthful creative energy, making significant contribution to the World of Knowledge and Technology and to the Development of the State, the Region and the Nation.
+            
+            The Mission:
+            
+            1) To impart quality education in the fields of Engineering, Science and Technology at Undergraduate as well as Postgraduate levels with special attention to encourage innovation and creativity in these fields in a clean and healthy environment.
+            
+            2) To engage in creation of knowledge and development of technologies through effective research programs.</p>
+        
+        <p>Contact info : Phone: 0364-2501294 | Fax: 0364-2501113</p>
+        </div>
+   </div>
+   
+   <div>
+     <div class="social">
+        <a href="https://www.facebook.com/nitmegh"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/nit_meghalaya?igsh=bDFhYnZ3cG1pdWVi"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://in.linkedin.com/school/national-institute-of-technology-meghalaya/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:registrar@nitm.ac.in"><i class="fa-solid fa-envelope-open"></i></a>
+        <a href="https://x.com/NIT_Meghalaya?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com/NIT-Meghalaya"><i class="fa-brands fa-github"></i></a>
+     </div>
+     
+     <footer>
+         &copy; Developed by DYNAMIC DYNAMOS
+     </footer>
+    
+    </div>
+   
+</body>
+</html>

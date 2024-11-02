@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:0%;
+    }
+    
+    @media(min-width:992px){
+        .alleca{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content:center;
+            grid-column-gap: 50px;
+            grid-row-gap:50px;
+        }
+    }
+
+    .alleca{
+        animation: flip 2s ease-in;
+    }
+
+    .navbar{
+            background-color:black;
+            padding:40px;
+            text-align: center;
+            color: white;
+        }
+        .navbar a{
+             color: white;
+             text-decoration: none;
+             font-size:1.2rem;
+             padding:10px 20px;
+             cursor:pointer;
+             border-inline: white;
+        }
+        .navbar-menu{
+            height:100px;
+            display:inline;
+            position:absolute;
+            height:600px;
+            width: ;
+            right:0px;
+            top:90px;
+           
+        }
+        .navbar-content{
+            position: absolute;
+            top:79px;
+            right:0px;
+            width: 250px;
+            background-color:black;
+            text-align:center;
+            min-width:100px;
+            display:none;
+            
+        }
+       .navbar .nav-heading{
+           padding:10px;
+            text-align: left;
+         /*   position: absolute;*/
+            left:20px;
+       }
+        .navbar-content a{
+            display:block;
+            
+        }
+        .navbar-content a:hover{
+            background-color: gray;
+            
+        }
+        .navbar-menu:hover .navbar-content{
+            display:block;
+        } 
+        
+        .social{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    background-color:black;
+    text-align: center;
+    padding: 40px;
+}   
+
+.social a{
+    color:white;
+}
+    
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    color:white;
+    
+}
+@keyframes flip {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(180deg); }
+}
+        .eca {
+            background-color: #9e0047;
+            color:white;
+            padding-bottom: 100px;
+            padding-top: 70px;
+            text-align:center;
+        }
+        #iconeca{
+            font-size: 6rem;
+        }
+        #un{
+            width:200px;
+            height:200px;
+            border-radius:20%;
+        }
+        #ai{
+            width:200px;
+            height:200px;
+            border-radius:20%;
+        }
+        #ri{
+            width:200px;
+            height:200px;
+            border-radius:20%;
+        }
+        #s{
+            width:200px;
+            height:200px;
+            border-radius:20%;
+        }
+
+        .eca{
+            size: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+        
+      <div class="navbar">
+        <div class="nav-heading col-3">
+            <h1><b>ACADEMIA NITM</b></h1>
+        </div>
+        <div class="navbar-menu col-9">
+            <a href="#"><i class="fa-solid fa-bars fa-2xl"></i></a> 
+        <div class="navbar-content">
+            <a href="index.html">Home</a>
+            <a href="about me.html">About us</a>
+            <a href="blog.html">Tech Notes</a>
+            <a href="#">Contact us</a>
+        </div>
+        </div>
+      </div>
+      
+      <div class="eca">
+          
+          <h1><u>All clubs of NITM</u></h1><br><br><br>
+     <div class="alleca">
+       <div><img id="un" src="C:\Users\HP\Downloads\robo.jpg" alt="un">
+          <p>Robotics Club</p></div><br><br>
+        <div><img id="ai" src="C:\Users\HP\Downloads\code.jpg">
+          <p>Coding Club</p></div><br><br>
+        <div> <img id="ri" src="C:\Users\HP\Downloads\elec.jpg">
+          <p>Electroincs Club</p></div><br><br>
+       <div><img id="s"  src="C:\Users\HP\Documents\e6346338-de9a-433f-af5f-d2c10cb44620.webp">
+          <p>Photography Club</p></div>
+          
+     </div>
+      </div>
+      
+      <div>
+     <div class="social">
+        <a href="https://www.facebook.com/nitmegh"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/nit_meghalaya?igsh=bDFhYnZ3cG1pdWVi"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://in.linkedin.com/school/national-institute-of-technology-meghalaya/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:registrar@nitm.ac.in"><i class="fa-solid fa-envelope-open"></i></a>
+        <a href="https://x.com/NIT_Meghalaya?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com/NIT-Meghalaya"><i class="fa-brands fa-github"></i></a>
+     </div>
+     
+     <footer>
+         &copy; Developed by DYNAMIC DYNAMOS
+     </footer>
+    
+    </div>
+</body>
+</html>

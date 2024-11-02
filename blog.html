@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     
+    <style>
+    
+    @media(min-width:992px){
+       .all-cards{ 
+        display:grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+       }
+    }
+        
+            *{
+        box-sizing: border-box;
+    }
+    body{
+        margin:0%;
+        background-color: #050505;
+    }
+    .navbar{
+            background-color:black;
+            padding:40px;
+            text-align: center;
+            color: white;
+        }
+        .navbar a{
+             color: white;
+             text-decoration: none;
+             font-size:1.2rem;
+             padding:10px 20px;
+             cursor:pointer;
+           
+             border-inline: white;
+        }
+        .navbar-menu{
+            height:100px;
+            display:inline;
+            position:absolute;
+            height:600px;
+            width: ;
+            right:0px;
+            top:90px;
+        }
+        .navbar-content{
+            position: absolute;
+            top:79px;
+            right:0px;
+            width: 250px;
+            background-color:black;
+            text-align:center;
+            min-width:100px;
+            display:none;
+            
+        }
+       .navbar .nav-heading{
+           padding:10px;
+            text-align: left;
+         /*   position: absolute;*/
+            left:20px;
+       }
+        .navbar-content a{
+            display:block;
+            
+        }
+        .navbar-content a:hover{
+            background-color: gray;
+            
+        }
+        .navbar-menu:hover .navbar-content{
+            display:block;
+        } 
+        
+            
+        .social {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0; /* Added margin for spacing */
+            background-color: black;
+    
+        }
+
+        .social a {
+            margin: 0 10px; /* Spacing between social icons */
+            color: rgb(254, 254, 254); /* Ensure icons are visible */
+            text-decoration: none; /* Remove underline */
+            font-size: 40px;
+            padding-top: 30px;
+            padding-inline: 20px;
+            
+        }
+
+    
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    color:white;
+    
+}
+
+           .card1{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+               background-color:#1e81b0;
+           }
+           .image1{
+               width:300px;
+             
+           }
+           .card-body1{
+               padding:10px;
+               /background-color:#1e81b0;/
+           }
+          .card-body1 .card-des1{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body1 .card-title1{
+               font-size:1.8rem;
+           }
+           
+           .card1:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+
+           .card2{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+           }
+           .image2{
+               width:300px;
+             
+           }
+           .card-body2{
+               padding:10px;
+               background-color:#c15b4e;
+           }
+          .card-body2 .card-des2{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body2 .card-title2{
+               font-size:1.8rem;
+           }
+           
+           .card2:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+            .card3{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+           }
+           .image3{
+               width:300px;
+             
+           }
+           .card-body3{
+               padding:10px;
+               background-color:#cb214e;
+           }
+          .card-body3 .card-des3{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body3 .card-title3{
+               font-size:1.8rem;
+           }
+           
+           .card3:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+                      .card4{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+               background-color:#4a2668;
+           }
+           .image4{
+               width:300px;
+             
+           }
+           .card-body4{
+               padding:10px;
+             /*  background-color:#4a2668;*/
+           }
+          .card-body4 .card-des4{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body4 .card-title4{
+               font-size:1.8rem;
+           }
+           
+           .card4:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+                      .card5{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+           }
+           .image5{
+               width:300px;
+             
+           }
+           .card-body5{
+               padding:10px;
+               background-color:#d4a000;
+           }
+          .card-body5 .card-des5{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body5 .card-title5{
+               font-size:1.8rem;
+           }
+           
+           .card5:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+            .card6{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+               background-color:#647547;
+           }
+           .image6{
+               width:300px;
+             
+           }
+           .card-body6{
+               padding:10px;
+             /*  background-color:#647547;*/
+           }
+          .card-body6 .card-des6{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body6 .card-title6{
+               font-size:1.8rem;
+           }
+           
+           .card6:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+            .card7{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+               background-color:#007547;
+           }
+           .image7{
+               width:300px;
+             
+           }
+           .card-body7{
+               padding:10px;
+             /*  background-color:#007547;*/
+           }
+          .card-body7 .card-des7{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body7 .card-title7{
+               font-size:1.8rem;
+           }
+           
+           .card7:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+             .card8{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+           }
+           .image8{
+               width:300px;
+             
+           }
+           .card-body8{
+               padding:10px;
+               background-color:#ff6347;
+           }
+          .card-body8 .card-des8{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body8 .card-title8{
+               font-size:1.8rem;
+           }
+           
+           .card8:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+                      .card9{
+               
+               width:300px;
+               margin:25px;
+               box-sizing:border-box;
+               box-shadow:4px 4px 4px black;
+               background-color:#a2973e;
+           }
+           .image9{
+               width:300px;
+             
+           }
+           .card-body9{
+               padding:10px;
+             /*  background-color:#a2973e;*/
+           }
+          .card-body9 .card-des9{
+               
+               text-align: justify;
+               line-height: 1.4;
+               color:white;
+           }
+          .card-body9 .card-title9{
+               font-size:1.8rem;
+           }
+           
+           .card9:hover{
+               box-shadow: 6px 12px 10px white;
+           }
+           
+           @keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+           
+          .all-cards{
+               
+             
+              
+              text-align: center;
+              align-content: center;
+              align:center
+              padding-bottom: 70px;
+              animation: slideIn 10s ease-in-out;
+          } 
+          
+         
+            .all-cards h1{
+                padding: 15px;
+                background-color:#c15b4e;
+                color:white;
+                font-family: Times New Roman;
+                font-size: 2.5rem;
+               
+            }
+          
+           #sn{
+               display: inline ;
+               border-radius:20px;
+               background-color:orange;
+           }
+           
+           
+           
+    </style>
+</head>
+<body>
+         <div class="navbar">
+        <div class="nav-heading col-3">
+            <h1><b>ACADEMIA NITM</b></h1>
+        </div>
+        <div class="navbar-menu col-9">
+            <a href="#"><i class="fa-solid fa-bars fa-2xl"></i></a>
+        <div class="navbar-content">
+            <a href="index.html">Home</a>
+            <a href="about me.html">About us</a>
+            <a href="blog.html">Tech Notes</a>
+            <a href="contact me.html">Contact us</a>
+        </div>
+        </div>
+      </div>
+
+ <div class="all-cards">
+      
+          <div class="card1">
+         <img class="image1" src="https://i.postimg.cc/QMQ11XmT/Artificial-Intelligence-in-Indonesia-The-current-state-and-its-opportunities-800x450.jpg"/>
+       <div class="card-body1">
+           
+           <div class="card-title1"><b>Artificial Intelligence</b></div><hr/>
+          <br> <div class="card-des1">
+               Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.
+           </div>
+       </div>
+         </div>
+         
+       <div class="card2">
+         <img class="image2" src="https://i.postimg.cc/mD6Fq8wD/fotis-fotopoulos-Du-HKo-V44prg-unsplash.jpg"/>
+       <div class="card-body2">
+           
+           <div class="card-title2"><b>Software</b></div><hr/>
+          <br> <div class="card-des2">
+              Software is a set of instructions, data or programs used to operate computers and execute specific tasks. It is the opposite of hardware, which describes the physical aspects of a computer. Software is a generic term used to refer to applications, scripts and programs that run on a device.
+             </div>
+       </div>
+         </div>
+       
+        <div class="card3">
+         <img class="image3" src="https://i.postimg.cc/W498n6QP/alexandre-debieve-FO7-JIlwj-Ot-U-unsplash.jpg"/>
+       <div class="card-body3">
+           
+           <div class="card-title3"><b>Computer Hardware</b></div><hr/>
+          <br> <div class="card-des3">
+              Computer hardware includes the physical parts of a computer, such as the case, central processing unit (CPU), random access memory (RAM), monitor, mouse, keyboard, computer data storage, graphics card, sound card, speakers and motherboard.
+               </div>
+       </div>
+         </div> 
+          <div class="card4">
+         <img class="image4" src="https://i.postimg.cc/65tNFB85/jj-ying-8bgh-Kx-NU1j0-unsplash.jpg"/>
+       <div class="card-body4">
+           
+           <div class="card-title4"><b>Optical Fiber</b></div><hr/>
+          <br> <div class="card-des4">
+             Fiber optics, or optical fiber, refers to the technology that transmits information as light pulses along a glass or plastic fiber. A fiber optic cable can contain a varying number of glass fibers, from a few up to a couple hundred. Another glass layer called cladding surrounds the glass fiber core.
+              </div>
+       </div>
+         </div>
+     
+          <div class="card5">
+         <img class="image5" src="https://i.postimg.cc/g0xvRXqZ/luca-bravo-XJXWbf-So2f0-unsplash.jpg"/>
+       <div class="card-body5">
+           
+           <div class="card-title5"><b>Object-oriented Programming</b></div><hr/>
+          <br> <div class="card-des5">
+             Object-oriented programming is a programming paradigm based on the concept of objects, which can contain data and code: data in the form of fields, and code in the form of procedures. A common feature of objects is that methods are attached to them and can access and modify the object's data fields.
+              </div>
+       </div>
+         </div>
+          <div class="card6">
+         <img class="image6" src="https://i.postimg.cc/GmJ0QVLT/Application-of-Bioinformatics.jpg"/>
+       <div class="card-body6">
+           
+           <div class="card-title6"><b>Bioinformatics</b></div><hr/>
+          <br> <div class="card-des6">
+             Bioinformatics is an interdisciplinary field of science that develops methods and software tools for understanding biological data, especially when the data sets are large and complex.
+             </div>
+       </div>
+         </div>
+        <div class="card7">
+         <img class="image7" src="https://i.postimg.cc/LXmjPqyZ/isaac-smith-6-En-TPv-PPL6-I-unsplash.jpg"/>
+       <div class="card-body7">
+           
+           <div class="card-title7"><b>Data Science</b></div><hr/>
+          <br> <div class="card-des7">
+             Data science combines math and statistics, specialized programming, advanced analytics, artificial intelligence (AI), and machine learning with specific subject matter expertise to uncover actionable insights hidden in an organization’s data.
+               </div>
+       </div>
+         </div>
+     
+          <div class="card8">
+         <img class="image8" src="https://i.postimg.cc/26sDDSDW/compare-fibre-Ji-OFFI3-W7-IA-unsplash.jpg"/>
+       <div class="card-body8">
+           
+           <div class="card-title8"><b>eLearning</b></div><hr/>
+          <br> <div class="card-des8">
+             eLearning, or electronic learning, is the delivery of learning and training through digital resources. Although eLearning is based on formalized learning, it is provided through electronic devices such as computers, tablets and even cellular phones that are connected to the internet.
+               </div>
+       </div>
+         </div>
+         
+            <div class="card9">
+         <img class="image9" src="https://i.postimg.cc/tCgp0T8s/image-1920.png"/>
+       <div class="card-body9">
+           
+           <div class="card-title9"><b>Operating System</b></div><hr/>
+          <br> <div class="card-des9">
+             The operating system (OS) manages all of the software and hardware on the computer. It performs basic tasks such as file, memory and process management, handling input and output, and controlling peripheral devices such as disk drives and printers.
+              </div>
+       </div>
+         </div>
+     
+     </div> 
+         
+ </div>
+       
+   <div>
+     <div class="social">
+        <a href="https://www.facebook.com/nitmegh"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="https://www.instagram.com/nit_meghalaya?igsh=bDFhYnZ3cG1pdWVi"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://in.linkedin.com/school/national-institute-of-technology-meghalaya/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:registrar@nitm.ac.in"><i class="fa-solid fa-envelope-open"></i></a>
+        <a href="https://x.com/NIT_Meghalaya?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="https://github.com/NIT-Meghalaya"><i class="fa-brands fa-github"></i></a>
+     </div>
+     
+     <footer>
+         &copy; Developed by DYNAMIC DYNAMOS
+     </footer>
+    
+    </div>
+</body>
+</html>
